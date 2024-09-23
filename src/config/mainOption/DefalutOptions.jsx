@@ -1,38 +1,40 @@
 import React from "react";
 
 const DefalutOptions = (props) => {
-  const options = props.options || [
-    {
-      text: "Option 1",
-      handler: props.actionProvider.handleOption1,
-      id: 1,
-    },
-    {
-      text: "Option 2",
-      handler: props.actionProvider.handleOption2,
-      id: 2,
-    },
-    {
-      text: "Option 3",
-      handler: props.actionProvider.handleOption3,
-      id: 3,
-    },
-    {
-      text: "Option 4",
-      handler: props.actionProvider.handleOption4,
-      id: 4,
-    },
-    {
-      text: "Option 5",
-      handler: props.actionProvider.handleQuickGuide,
-      id: 5,
-    },
-    {
-      text: "Option 6",
-      handler: props.actionProvider.handleInsuranceList,
-      id: 6,
-    },
-  ];
+  const options =
+    props.options ||
+    [
+      // {
+      //   text: "Option 1",
+      //   handler: props.actionProvider.handleOption1,
+      //   id: 1,
+      // },
+      // {
+      //   text: "Option 2",
+      //   handler: props.actionProvider.handleOption2,
+      //   id: 2,
+      // },
+      // {
+      //   text: "Option 3",
+      //   handler: props.actionProvider.handleOption3,
+      //   id: 3,
+      // },
+      // {
+      //   text: "Option 4",
+      //   handler: props.actionProvider.handleOption4,
+      //   id: 4,
+      // },
+      // {
+      //   text: "Option 5",
+      //   handler: props.actionProvider.handleQuickGuide,
+      //   id: 5,
+      // },
+      // {
+      //   text: "Option 6",
+      //   handler: props.actionProvider.handleInsuranceList,
+      //   id: 6,
+      // },
+    ];
 
   const optionsMarkup = options.map((option, index) => (
     <button
