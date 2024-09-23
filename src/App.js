@@ -6,6 +6,9 @@ import React from "react";
 const Login = lazy(() => import("./pages/Login"));
 const Main = lazy(() => import("./pages/Main"));
 const Test = lazy(() => import("./pages/Test"));
+const DraggableModalButton = lazy(
+  () => import("./components/chatbot/DraggableModalButton"),
+);
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
       <div className="App">
         <div>
           <Routes>
-            <Route path="/" element={<Login />} />
+            <Route path="/" element={<DraggableModalButton />} />
             <Route path="/login" element={<Login />} />
             <Route path="/main" element={<Main />} />
             <Route path="/test" element={<Test />} />
