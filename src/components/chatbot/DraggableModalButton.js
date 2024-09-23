@@ -60,9 +60,10 @@ const DraggableModalButton = () => {
             right: "10px",
             top: `calc(66.67%)`,
             zIndex: 100,
-            borderRadius: "50%",
-            width: "50px",
-            height: "50px",
+            // width: "50px",
+            // height: "50px",
+            // border: "1px solid #333",
+            // borderRadius: "50%",
             cursor: "pointer",
             transition: "top 0.1s ease-in-out",
           }}
@@ -70,8 +71,8 @@ const DraggableModalButton = () => {
           <img
             src={botAvatar}
             alt="Bot Avatar"
-            className="chatbot-avatar"
-            class="pointer-events-none"
+            // className="chatbot-avatar"
+            class="pointer-events-none h-[50px] w-[50px] rounded-full"
           />
         </button>
       </Draggable>
