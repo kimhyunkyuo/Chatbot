@@ -15,7 +15,7 @@ const Login = () => {
   return (
     <div>
       <div>
-        <div>
+        <div class="hidden">
           <div class="mx-auto flex h-[64px] w-[800px] items-center justify-center">
             <div></div>
             <div className="flex cursor-default items-center justify-center text-base font-semibold">
