@@ -39,8 +39,8 @@ const MainTerminateOptions = (props) => {
 
   const optionsMarkup = options.map((option, index) => (
     <button
-      class="float-left m-[5px] mr-4 h-10 max-w-[250px] cursor-pointer rounded-xl border-none
-    bg-Primary-Normal p-[10px] font-semibold text-Text-Normal"
+      class="bg-Custom-Teal float-left m-[5px] mr-4 h-10 max-w-[250px] cursor-pointer rounded-xl
+      border-none p-[10px] font-semibold text-white "
       key={index}
       onClick={() => props.actionProvider[option.handler]()}
     >

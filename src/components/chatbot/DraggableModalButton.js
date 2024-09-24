@@ -8,7 +8,7 @@ const DraggableModalButton = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
   const close_icon = process.env.PUBLIC_URL + "/assets/close_button_14.png";
-  const botAvatar = process.env.PUBLIC_URL + "/assets/avatar.png";
+  const botAvatar = process.env.PUBLIC_URL + "/assets/Chabot-fluter.png";
 
   const toggleModal = () => {
     if (!isDragging) {
@@ -72,7 +72,7 @@ const DraggableModalButton = () => {
             src={botAvatar}
             alt="Bot Avatar"
             // className="chatbot-avatar"
-            class="pointer-events-none h-[50px] w-[50px] rounded-full"
+            class="pointer-events-none h-[58px] w-[58px] "
           />
         </button>
       </Draggable>
