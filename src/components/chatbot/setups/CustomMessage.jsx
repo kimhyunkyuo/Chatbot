@@ -188,12 +188,12 @@ const CustomMessage = (props) => {
     case "ReApplicationInsurancePolicy":
       return (
         <div>
-          <div class="mb-[30px] mt-[-320px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               보험증권을 다시 받고 싶은데 어떻게 신청하면 되나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -248,7 +248,7 @@ const CustomMessage = (props) => {
               보험가입 시 준비해야 할 것이 무엇인가요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -290,7 +290,7 @@ const CustomMessage = (props) => {
               보험가입 시 준비해야 할 것이 무엇인가요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -333,7 +333,7 @@ const CustomMessage = (props) => {
               제가 아닌 다른 사람을 피보험자로 할 수 없나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -369,7 +369,7 @@ const CustomMessage = (props) => {
               제가 아닌 다른 사람을 피보험자로 할 수 없나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -406,7 +406,7 @@ const CustomMessage = (props) => {
               보험가입 후 보험증권은 언제 받아볼 수 있나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -438,7 +438,7 @@ const CustomMessage = (props) => {
               보험가입 후 보험증권은 언제 받아볼 수 있나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -470,7 +470,7 @@ const CustomMessage = (props) => {
               보험가입 후 언제부터 보장이 되나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -498,7 +498,7 @@ const CustomMessage = (props) => {
               보험가입 후 언제부터 보장이 되나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -527,7 +527,7 @@ const CustomMessage = (props) => {
               수익자 지정은 어떻게 하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -563,7 +563,7 @@ const CustomMessage = (props) => {
               수익자 지정은 어떻게 하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -600,7 +600,7 @@ const CustomMessage = (props) => {
               보험가입금액이 무엇인가요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -638,7 +638,7 @@ const CustomMessage = (props) => {
               보험가입금액이 무엇인가요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -676,7 +676,7 @@ const CustomMessage = (props) => {
               보험가입이 되지 않을 경우도 있나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -714,7 +714,7 @@ const CustomMessage = (props) => {
               보험가입이 되지 않을 경우도 있나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -752,7 +752,7 @@ const CustomMessage = (props) => {
               보험 가입은 언제든 가능 한건가요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -780,7 +780,7 @@ const CustomMessage = (props) => {
               보험 가입은 언제든 가능 한건가요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -808,7 +808,7 @@ const CustomMessage = (props) => {
               보험가입 시 한도초과로 나오는 것은 왜그렇죠?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -853,7 +853,7 @@ const CustomMessage = (props) => {
               보험가입 시 한도초과로 나오는 것은 왜그렇죠?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -893,12 +893,12 @@ const CustomMessage = (props) => {
     case "SideInsuranceBeneficiaryConsent":
       return (
         <div>
-          <div class="mb-[30px] mt-[-320px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               보험수익자 지정,변경 약정 동의가 무엇인가요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -933,12 +933,12 @@ const CustomMessage = (props) => {
     case "LegalBeneficiary":
       return (
         <div>
-          <div class="mb-[30px] mt-[-320px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               수익자를 법정상속인으로 지정할 경우 상속 순위는 어떻게 되나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -993,12 +993,12 @@ const CustomMessage = (props) => {
     case "MarketingConsentCancel":
       return (
         <div>
-          <div class="mb-[30px] mt-[-320px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               마케팅 동의에 대한 철회는 어떻게 하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1023,12 +1023,12 @@ const CustomMessage = (props) => {
     case "AfterSideContractDetails":
       return (
         <div>
-          <div class="mb-[30px] mt-[-320px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               보험가입 후 보험의 계약사항은 어디서 확인 할 수 있나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1053,12 +1053,12 @@ const CustomMessage = (props) => {
     case "WhenInsurancePremiumPayment":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               보험료가 통잔잔고 부족으로 미인출되었습니다. 언제 다시 청구되나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1085,12 +1085,12 @@ const CustomMessage = (props) => {
     case "ChangeAutomaticTransfer":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               자동이체 신청/변경/해지는 어떻게하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1118,12 +1118,12 @@ const CustomMessage = (props) => {
     case "ChangeAutomaticTransfer12":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               자동이체 신청/변경/해지는 어떻게하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1151,12 +1151,12 @@ const CustomMessage = (props) => {
     case "TerminationAutomaticTransfer":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               자동 이체를 해지하면 어떻게 보험료를 납입하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1180,12 +1180,12 @@ const CustomMessage = (props) => {
     case "TerminationAutomaticTransfer12":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               자동 이체를 해지하면 어떻게 보험료를 납입하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1210,12 +1210,12 @@ const CustomMessage = (props) => {
     case "ReserveCancellationRefund":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               적립금와 해약환급금의 차이는 무엇인가요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1240,12 +1240,12 @@ const CustomMessage = (props) => {
     case "DocumentsInsuranceClaim":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               보험금 청구를 위한 신청서류는 어디서 확인할 수 있나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1272,12 +1272,12 @@ const CustomMessage = (props) => {
     case "MailAcceptance":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               제지급 우편 접수는 어떻게 하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1333,12 +1333,12 @@ const CustomMessage = (props) => {
     case "ApplicationMaturityInsurance":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               만기보험금 신청은 어떻게 하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1374,12 +1374,12 @@ const CustomMessage = (props) => {
     case "WhereCancellationRefund":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               (해약)해지환급금은 어디서 확인할 수 있나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1404,12 +1404,12 @@ const CustomMessage = (props) => {
     case "HowCancellation":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               해약은 어떻게 하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1448,12 +1448,12 @@ const CustomMessage = (props) => {
     case "HowIntermediateWithdrawal":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               중도인출금 신청은 어떻게 하나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1490,12 +1490,12 @@ const CustomMessage = (props) => {
     case "PossibleWithdrawalSubscription":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               청약철회 가능기간 및 신청절차를 알려주세요.
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1529,12 +1529,12 @@ const CustomMessage = (props) => {
     case "ImPossibleWithdrawalSubscription":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               청약철회가 불가능한 경우는 무엇인가요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1570,12 +1570,12 @@ const CustomMessage = (props) => {
     case "WherePersonalInformation":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               개인정보 변경은 어디서 할 수 있나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
@@ -1599,12 +1599,12 @@ const CustomMessage = (props) => {
     case "WhereCertificate":
       return (
         <div>
-          <div class="mb-[30px] mt-[-300px] w-full">
+          <div class="mb-[30px] mt-[-250px] w-full">
             <div class="react-chatbot-kit-user-chat-message">
               각종 증명서 발급은 어디서 할 수 있나요?
             </div>
           </div>
-          <div className="mb-10 flex items-center">
+          <div className="mb-5 flex items-center">
             <div class="flex">
               <img
                 src={botAvatar}
