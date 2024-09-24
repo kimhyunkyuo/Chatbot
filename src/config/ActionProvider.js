@@ -130,45 +130,6 @@ class ActionProvider {
     }));
   };
 
-  handleOption1 = () => {
-    const message = this.createChatBotMessage("", {
-      widget: "pdfViewer",
-      withAvatar: false,
-    });
-
-    this.setState((prev) => ({
-      ...prev,
-      messages: [...prev.messages, message],
-    }));
-  };
-
-  handleOption2 = () => {
-    const message = this.createChatBotMessage("", {
-      widget: "cancellationRefundWidget",
-      withAvatar: false,
-    });
-    this.setState((prev) => ({
-      ...prev,
-      messages: [...prev.messages, message],
-    }));
-  };
-
-  handleOption3 = () => {
-    const message = this.createChatBotMessage("You selected IM 무배당 3.");
-    this.setState((prev) => ({
-      ...prev,
-      messages: [...prev.messages, message],
-    }));
-  };
-
-  handleOption4 = () => {
-    const message = this.createChatBotMessage("You selected IM 무배당 4.");
-    this.setState((prev) => ({
-      ...prev,
-      messages: [...prev.messages, message],
-    }));
-  };
-
   handleInsuranceList = () => {
     const message = this.createChatBotMessage(
       "You selected Internet Insurance Products List.",
@@ -201,6 +162,122 @@ class ActionProvider {
 
   PersonalInformation = () => {
     this.setCurrentWidget("PersonalInformationWidget");
+  };
+
+  resetState = (newWidget) => {
+    // Reset messages and trigger re-render by changing the widget key
+    const newKey = Date.now(); // 새로운 key 값 생성
+
+    this.setState({
+      messages: [],
+      currentWidget: newWidget,
+      widgetKey: newKey, // key 값을 갱신하여 강제 리렌더링
+    });
+  };
+  // ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+  // Function to reset the chatbot and render afterOptionsWidget only
+  // AfterInsuranceContracts = () => {
+  //   // Clears previous content and renders only the afterOptionsWidget
+  //   this.setState({
+  //     messages: [], // Clear all previous messages
+  //     currentWidget: "afterOptionsWidget", // Set the new widget
+  //     widgetKey: Date.now(), // Generate a new key to force re-render
+  //   });
+
+  //   // Create a new message for the afterOptionsWidget
+  //   const message = this.createChatBotMessage("", {
+  //     widget: "afterOptionsWidget",
+  //     withAvatar: false,
+  //   });
+
+  //   // Update the chatbot state with the new widget
+  //   this.setState((prev) => ({
+  //     ...prev,
+  //     messages: [...prev.messages, message],
+  //   }));
+  // };
+
+  // ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+  // Updated AfterInsuranceContracts method
+  AfterInsuranceContracts = () => {
+    // Clear previous content and set up both afterOptionsWidget and InsuranceContractsWidget
+    this.setState({
+      messages: [], // Clear all previous messages
+      currentWidget: "", // No need to set a specific widget here
+      widgetKey: Date.now(), // Generate a new key to force re-render
+    });
+
+    // Create messages for both widgets
+    const afterOptionsMessage = this.createChatBotMessage("", {
+      widget: "afterOptionsWidget",
+      withAvatar: false,
+    });
+
+    const insuranceContractsMessage = this.createChatBotMessage("", {
+      widget: "InsuranceContractsWidget",
+      withAvatar: false,
+    });
+    // Update the chatbot state with both widgets
+    this.setState((prev) => ({
+      ...prev,
+      messages: [
+        ...prev.messages,
+        afterOptionsMessage,
+        insuranceContractsMessage,
+      ], // Add both messages
+    }));
+  };
+  // ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+  AfterInsurancePayment = () => {
+    this.resetState("InsurancePaymentWidget"); // Clears previous content and sets pdfViewer widget
+    const message = this.createChatBotMessage("", {
+      widget: "InsurancePaymentWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
+  AfterInsuranceTerminate = () => {
+    this.resetState("InsuranceTerminateWidget"); // Clears previous content and sets pdfViewer widget
+    const message = this.createChatBotMessage("", {
+      widget: "InsuranceTerminateWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
+  AfterPersonalInformation = () => {
+    this.resetState("PersonalInformationWidget"); // Clears previous content and sets pdfViewer widget
+    const message = this.createChatBotMessage("", {
+      widget: "PersonalInformationWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
+
+  handleResetOption1 = () => {
+    this.resetState("InsuranceContractsWidget");
+  };
+
+  handleResetOption2 = () => {
+    this.resetState("InsurancePaymentWidget");
+  };
+
+  handleResetOption3 = () => {
+    this.resetState("InsuranceTerminateWidget");
+  };
+
+  handleResetOption4 = () => {
+    this.resetState("PersonalInformationWidget");
   };
 }
 
