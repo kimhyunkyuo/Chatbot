@@ -940,36 +940,36 @@ const ChatBotConfig = (menuItem) => {
       {
         widgetName: "InsurancePreparationsWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="InsurancePreparations" />
             <AfterOptions
               {...props}
               options={[
                 {
                   text: "보험 계약 및 가입 관련",
-                  handler: "InsuranceContracts",
+                  handler: "AfterInsuranceContracts",
                 },
                 {
                   text: "보험료 및 납입 관리",
-                  handler: "InsurancePayment",
+                  handler: "AfterInsurancePayment",
                 },
                 {
                   text: "보험료 지급 및 해지 처리",
-                  handler: "InsuranceTerminate",
+                  handler: "AfterInsuranceTerminate",
                 },
                 {
                   text: "개인정보 및 증명 서류",
-                  handler: "PersonalInformation",
+                  handler: "AfterPersonalInformation",
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "InsurancePreparations12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="InsurancePreparations12" />
             <AfterOptions
               {...props}
@@ -992,13 +992,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "InsureAnotherPerson12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="InsureAnotherPerson12" />
             <AfterOptions
               {...props}
@@ -1021,13 +1021,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "InsurancePolicy12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="InsurancePolicy12" />
             <AfterOptions
               {...props}
@@ -1050,13 +1050,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "InsurancePolicyAfterPurchase12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="InsurancePolicyAfterPurchase12"
@@ -1082,13 +1082,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "SpecifyingBeneficiaries12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="SpecifyingBeneficiaries12" />
             <AfterOptions
               {...props}
@@ -1111,13 +1111,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "AmountInsurance12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="AmountInsurance12" />
             <AfterOptions
               {...props}
@@ -1140,13 +1140,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "Uninsured12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="Uninsured12" />
             <AfterOptions
               {...props}
@@ -1169,13 +1169,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "WhenPurchaseInsurance12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="WhenPurchaseInsurance12" />
             <AfterOptions
               {...props}
@@ -1198,13 +1198,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "LimitInsurance12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="LimitInsurance12" />
             <AfterOptions
               {...props}
@@ -1227,13 +1227,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "ChangeAutomaticTransfer12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="ChangeAutomaticTransfer12" />
             <AfterOptions
               {...props}
@@ -1256,13 +1256,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "TerminationAutomaticTransfer12Widget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="TerminationAutomaticTransfer12"
@@ -1288,13 +1288,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "ReApplicationInsurancePolicyWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="ReApplicationInsurancePolicy"
@@ -1320,13 +1320,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "InsureAnotherPersonWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="InsureAnotherPerson" />
             <AfterOptions
               {...props}
@@ -1349,14 +1349,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "InsurancePolicyWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="InsurancePolicy" />
             <AfterOptions
               {...props}
@@ -1379,14 +1379,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "InsurancePolicyAfterPurchaseWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="InsurancePolicyAfterPurchase"
@@ -1412,14 +1412,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "SpecifyingBeneficiariesWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="SpecifyingBeneficiaries" />
             <AfterOptions
               {...props}
@@ -1442,14 +1442,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "AmountInsuranceWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="AmountInsurance" />
             <AfterOptions
               {...props}
@@ -1472,14 +1472,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "UninsuredWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="Uninsured" />
             <AfterOptions
               {...props}
@@ -1502,13 +1502,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "WhenPurchaseInsuranceWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="WhenPurchaseInsurance" />
             <AfterOptions
               {...props}
@@ -1531,13 +1531,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "LimitInsuranceWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="LimitInsurance" />
             <AfterOptions
               {...props}
@@ -1560,14 +1560,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "SideInsuranceBeneficiaryConsentWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="SideInsuranceBeneficiaryConsent"
@@ -1593,14 +1593,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "LegalBeneficiaryWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="LegalBeneficiary" />
             <AfterOptions
               {...props}
@@ -1623,14 +1623,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "MarketingConsentCancelWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="MarketingConsentCancel" />
             <AfterOptions
               {...props}
@@ -1653,14 +1653,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "AfterSideContractDetailsWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="AfterSideContractDetails" />
             <AfterOptions
               {...props}
@@ -1683,14 +1683,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "WhenInsurancePremiumPaymentWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="WhenInsurancePremiumPayment"
@@ -1716,13 +1716,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "ChangeAutomaticTransferWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="ChangeAutomaticTransfer" />
             <AfterOptions
               {...props}
@@ -1745,13 +1745,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "TerminationAutomaticTransferWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="TerminationAutomaticTransfer"
@@ -1777,13 +1777,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "ReserveCancellationRefundWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="ReserveCancellationRefund" />
             <AfterOptions
               {...props}
@@ -1806,13 +1806,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "DocumentsInsuranceClaimWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="DocumentsInsuranceClaim" />
             <AfterOptions
               {...props}
@@ -1835,14 +1835,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "MailAcceptanceWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="MailAcceptance" />
             <AfterOptions
               {...props}
@@ -1865,14 +1865,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "ApplicationMaturityInsuranceWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="ApplicationMaturityInsurance"
@@ -1898,14 +1898,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "WhereCancellationRefundWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="WhereCancellationRefund" />
             <AfterOptions
               {...props}
@@ -1928,14 +1928,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "HowCancellationWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="HowCancellation" />
             <AfterOptions
               {...props}
@@ -1958,14 +1958,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "HowIntermediateWithdrawalWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="HowIntermediateWithdrawal" />
             <AfterOptions
               {...props}
@@ -1988,14 +1988,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "PossibleWithdrawalSubscriptionWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="PossibleWithdrawalSubscription"
@@ -2021,14 +2021,14 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
       {
         widgetName: "ImPossibleWithdrawalSubscriptionWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage
               {...props}
               messageType="ImPossibleWithdrawalSubscription"
@@ -2054,13 +2054,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "WherePersonalInformationWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="WherePersonalInformation" />
             <AfterOptions
               {...props}
@@ -2083,13 +2083,13 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
       {
         widgetName: "WhereCertificateWidget",
         widgetFunc: (props) => (
-          <>
+          <div class="flex flex-col">
             <CustomMessage {...props} messageType="WhereCertificate" />
             <AfterOptions
               {...props}
@@ -2112,7 +2112,7 @@ const ChatBotConfig = (menuItem) => {
                 },
               ]}
             />
-          </>
+          </div>
         ),
       },
 
@@ -2157,6 +2157,139 @@ const ChatBotConfig = (menuItem) => {
           </div>
         ),
       },
+      {
+        widgetName: "afterOptionsWidget",
+        widgetFunc: (props) => (
+          <div class="flex flex-col">
+            <div class="mb-10 h-[100px] w-full ">
+              {" "}
+              <AfterOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험 계약 및 가입 관련",
+                    handler: "InsuranceContracts",
+                  },
+                  {
+                    text: "보험료 및 납입 관리",
+                    handler: "InsurancePayment",
+                  },
+                  {
+                    text: "보험료 지급 및 해지 처리",
+                    handler: "InsuranceTerminate",
+                  },
+                  {
+                    text: "개인정보 및 증명 서류",
+                    handler: "PersonalInformation",
+                  },
+                ]}
+              />
+            </div>
+            {/* Dynamically render the selected widget */}
+            {props.state.currentWidget === "InsuranceContractsWidget" && (
+              <MainContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험가입",
+                    handler: "SideContracts",
+                  },
+                  {
+                    text: "보험증권",
+                    handler: "SidePolicy",
+                  },
+                  {
+                    text: "계약사항",
+                    handler: "SideContractDetails",
+                  },
+                  {
+                    text: "보험수익자",
+                    handler: "SideInsuranceBeneficiary",
+                  },
+                  {
+                    text: "수익자",
+                    handler: "SideBeneficiary",
+                  },
+                  {
+                    text: "마케팅 동의",
+                    handler: "MarketingConsent",
+                  },
+                ]}
+              />
+            )}
+            {props.state.currentWidget === "InsurancePaymentWidget" && (
+              <MainPaymentOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험료 납입",
+                    handler: "InsuranceContracts",
+                  },
+                  {
+                    text: "자동이체",
+                    handler: "InsurancePayment",
+                  },
+                  {
+                    text: "적립금",
+                    handler: "InsuranceTerminate",
+                  },
+                ]}
+              />
+            )}
+            {props.state.currentWidget === "InsuranceTerminateWidget" && (
+              <MainTerminateOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험금 청구",
+                    handler: "InsuranceContracts",
+                  },
+                  {
+                    text: "지급금 우편접수",
+                    handler: "InsurancePayment",
+                  },
+                  {
+                    text: "만기보험금",
+                    handler: "InsuranceTerminate",
+                  },
+                  {
+                    text: "해약환급금",
+                    handler: "InsuranceTerminate",
+                  },
+                  {
+                    text: "해약",
+                    handler: "InsuranceTerminate",
+                  },
+                  {
+                    text: "중도인출",
+                    handler: "InsuranceTerminate",
+                  },
+                  {
+                    text: "청약철회",
+                    handler: "InsuranceTerminate",
+                  },
+                ]}
+              />
+            )}
+            {props.state.currentWidget === "PersonalInformationWidget" && (
+              <MainPersonalOptions
+                {...props}
+                options={[
+                  {
+                    text: "개인정보",
+                    handler: "InsuranceContracts",
+                  },
+                  {
+                    text: "증명서",
+                    handler: "InsurancePayment",
+                  },
+                ]}
+              />
+            )}
+          </div>
+        ),
+      },
+
       {
         widgetName: "productIntroWidget",
         widgetFunc: (props) => (
