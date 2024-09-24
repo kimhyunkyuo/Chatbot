@@ -15,7 +15,7 @@ export const insuranceContractsOptions = [
 ];
 
 export const insurancePaymentOptions = [
-  { text: "보험료 납입", handler: "InsuranceContracts" },
+  { text: "보험료 납입", handler: "InsurancePremiumPayment" },
   { text: "자동이체", handler: "InsurancePayment" },
   { text: "적립금", handler: "InsuranceTerminate" },
 ];
@@ -25,12 +25,12 @@ export const insuranceTerminateOptions = [
   { text: "지급금 우편접수", handler: "InsurancePayment" },
   { text: "만기보험금", handler: "InsuranceTerminate" },
   { text: "해약환급금", handler: "InsuranceTerminate" },
-  { text: "해약", handler: "InsuranceTerminate" },
+  { text: "해약", handler: "Cancellation" },
   { text: "중도인출", handler: "InsuranceTerminate" },
   { text: "청약철회", handler: "InsuranceTerminate" },
 ];
 
 export const personalInformationOptions = [
-  { text: "개인정보", handler: "InsuranceContracts" },
+  { text: "개인정보", handler: "PersonalInformations" },
   { text: "증명서", handler: "InsurancePayment" },
 ];
