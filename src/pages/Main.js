@@ -16,7 +16,7 @@ const Main = () => {
     <div>
       <div class="flex h-[600px] w-[830px]">
         <SideMenuBar onMenuItemClick={handleMenuItemClick} />
-        <div class="flex h-[89.5%] w-[630px] flex-col bg-white">
+        <div class="flex w-[630px] flex-col bg-white">
           <header class="ml-[228px] flex h-[64px] w-[600px] items-center ">
             <div></div>
             <div className="flex cursor-default items-center justify-center text-base font-semibold">
