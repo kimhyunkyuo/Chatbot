@@ -19,8 +19,8 @@ class MessageParser {
     else if (lowercase.includes("보험 상품") && lowercase.includes("소개")) {
       this.actionProvider.handleProductIntro();
     } else if (
-      (lowercase.includes("마케팅동의") && lowercase.includes("철회")) ||
-      (lowercase.includes("마케팅 동의") && lowercase.includes("철회"))
+      (lowercase.includes("마케팅동의") && lowercase.includes("철회")) 
+      
     ) {
       this.actionProvider.MarketingConsent();
     } else if (lowercase.includes("중도인출") && lowercase.includes("신청")) {
