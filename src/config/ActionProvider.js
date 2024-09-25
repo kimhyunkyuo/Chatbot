@@ -62,9 +62,31 @@ class ActionProvider {
       messages: [...prev.messages, message],
     }));
   };
+  SidePolicyPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "SidePolicyParWidget",
+      withAvatar: false,
+    });
+
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   SideContractDetails = () => {
     const message = this.createChatBotMessage("", {
       widget: "SideContractDetailsWidget",
+      withAvatar: false,
+    });
+
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
+  SideContractDetailsPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "SideContractDetailsParWidget",
       withAvatar: false,
     });
 
@@ -84,9 +106,31 @@ class ActionProvider {
       messages: [...prev.messages, message],
     }));
   };
+  SideInsuranceBeneficiaryPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "SideInsuranceBeneficiaryParWidget",
+      withAvatar: false,
+    });
+
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   SideBeneficiary = () => {
     const message = this.createChatBotMessage("", {
       widget: "SideBeneficiaryWidget",
+      withAvatar: false,
+    });
+
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
+  SideBeneficiaryPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "SideBeneficiaryParWidget",
       withAvatar: false,
     });
 
@@ -106,7 +150,18 @@ class ActionProvider {
       messages: [...prev.messages, message],
     }));
   };
+  
+  MarketingConsentPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "MarketingConsentParWidget",
+      withAvatar: false,
+    });
 
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   InsurancePreparations = () => {
     const message = this.createChatBotMessage("", {
       widget: "InsurancePreparationsWidget",
@@ -607,7 +662,16 @@ class ActionProvider {
       messages: [...prev.messages, message],
     }));
   };
-
+  InsurancePremiumPaymentPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "InsurancePremiumPaymentParWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   WhenInsurancePremiumPayment = () => {
     const message = this.createChatBotMessage("", {
       widget: "WhenInsurancePremiumPaymentWidget",
@@ -689,6 +753,16 @@ class ActionProvider {
       messages: [...prev.messages, message],
     }));
   };
+  ReserveFundPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "ReserveFundParWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   ReserveCancellationRefund = () => {
     const message = this.createChatBotMessage("", {
       widget: "ReserveCancellationRefundWidget",
@@ -702,6 +776,16 @@ class ActionProvider {
   InsuranceClaims = () => {
     const message = this.createChatBotMessage("", {
       widget: "InsuranceClaimsWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
+  InsuranceClaimsPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "InsuranceClaimsParWidget",
       withAvatar: false,
     });
     this.setState((prev) => ({
@@ -730,7 +814,16 @@ class ActionProvider {
       messages: [...prev.messages, message],
     }));
   };
-
+  PaymentReceivedMailPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "PaymentReceivedMailParWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   MailAcceptance = () => {
     const message = this.createChatBotMessage("", {
       widget: "MailAcceptanceWidget",
@@ -752,7 +845,16 @@ class ActionProvider {
       messages: [...prev.messages, message],
     }));
   };
-
+  MaturityInsuranceMoneyPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "MaturityInsuranceMoneyParWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   ApplicationMaturityInsurance = () => {
     const message = this.createChatBotMessage("", {
       widget: "ApplicationMaturityInsuranceWidget",
@@ -767,6 +869,16 @@ class ActionProvider {
   CancellationRefund = () => {
     const message = this.createChatBotMessage("", {
       widget: "CancellationRefundWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
+  CancellationRefundPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "CancellationRefundParWidget",
       withAvatar: false,
     });
     this.setState((prev) => ({
@@ -795,6 +907,16 @@ class ActionProvider {
       messages: [...prev.messages, message],
     }));
   };
+  CancellationPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "CancellationParWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   HowCancellation = () => {
     const message = this.createChatBotMessage("", {
       widget: "HowCancellationWidget",
@@ -808,6 +930,16 @@ class ActionProvider {
   IntermediateWithdrawal = () => {
     const message = this.createChatBotMessage("", {
       widget: "IntermediateWithdrawalWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
+  IntermediateWithdrawalPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "IntermediateWithdrawalParWidget",
       withAvatar: false,
     });
     this.setState((prev) => ({
@@ -837,6 +969,16 @@ class ActionProvider {
     }));
   };
 
+  WithdrawalSubscriptionPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "WithdrawalSubscriptionParWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   PossibleWithdrawalSubscription = () => {
     const message = this.createChatBotMessage("", {
       widget: "PossibleWithdrawalSubscriptionWidget",
@@ -869,6 +1011,16 @@ class ActionProvider {
       messages: [...prev.messages, message],
     }));
   };
+  PersonalInformationsPar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "PersonalInformationsParWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
   WherePersonalInformation = () => {
     const message = this.createChatBotMessage("", {
       widget: "WherePersonalInformationWidget",
@@ -883,6 +1035,16 @@ class ActionProvider {
   Certificate = () => {
     const message = this.createChatBotMessage("", {
       widget: "CertificateWidget",
+      withAvatar: false,
+    });
+    this.setState((prev) => ({
+      ...prev,
+      messages: [...prev.messages, message],
+    }));
+  };
+  CertificatePar = () => {
+    const message = this.createChatBotMessage("", {
+      widget: "CertificateParWidget",
       withAvatar: false,
     });
     this.setState((prev) => ({

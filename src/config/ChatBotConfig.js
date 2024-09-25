@@ -373,12 +373,50 @@ const ChatBotConfig = (menuItem) => {
         ),
       },
       {
+        widgetName: "SidePolicyParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험증권을 다시 받고 싶은데 어떻게 신청하면 되나요?",
+                    handler: "ReApplicationInsurancePolicy",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
+      {
         widgetName: "SideContractDetailsWidget",
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
             <div class="h-[240px] w-full">
               <CustomMessage {...props} messageType="SideContractDetails" />
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험가입 후 가입한 보험의 계약사항은 어디서 확인 할 수 있나요?",
+                    handler: "AfterSideContractDetails",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
+      {
+        widgetName: "SideContractDetailsParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -416,12 +454,50 @@ const ChatBotConfig = (menuItem) => {
         ),
       },
       {
+        widgetName: "SideInsuranceBeneficiaryParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험수익자 지정,변경 약정 동의가 무엇인가요?",
+                    handler: "SideInsuranceBeneficiaryConsent",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
+      {
         widgetName: "SideBeneficiaryWidget",
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
             <div class="h-[240px] w-full">
               <CustomMessage {...props} messageType="SideBeneficiary" />
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "수익자를 법정상속인으로 지정할 경우 상속 순위는 어떻게 되나요?",
+                    handler: "LegalBeneficiary",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
+      {
+        widgetName: "SideBeneficiaryParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -455,7 +531,25 @@ const ChatBotConfig = (menuItem) => {
           </div>
         ),
       },
-
+      {
+        widgetName: "MarketingConsentParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "마케팅 동의에 대한 철회는 어떻게 하나요?",
+                    handler: "MarketingConsentCancel",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
       {
         widgetName: "InsurancePremiumPaymentWidget",
         widgetFunc: (props) => (
@@ -475,8 +569,46 @@ const ChatBotConfig = (menuItem) => {
             </div>
           </div>
         ),
+        }, 
+        {
+        widgetName: "InsurancePremiumPaymentWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <CustomMessage {...props} messageType="InsurancePremiumPayment" />
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험료가 통잔잔고 부족으로 미인출되었습니다. 언제 다시 청구되나요?",
+                    handler: "WhenInsurancePremiumPayment",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
       },
-
+      {
+        widgetName: "InsurancePremiumPaymentParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험료가 통잔잔고 부족으로 미인출되었습니다. 언제 다시 청구되나요?",
+                    handler: "WhenInsurancePremiumPayment",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
       {
         widgetName: "AutomaticTransferWidget",
         widgetFunc: (props) => (
@@ -522,12 +654,50 @@ const ChatBotConfig = (menuItem) => {
         ),
       },
       {
+        widgetName: "ReserveFundParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "적립금과 해약환급금의 차이는 무엇인가요?",
+                    handler: "ReserveCancellationRefund",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
+      {
         widgetName: "InsuranceClaimsWidget",
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
             <div class="h-[240px] w-full">
               <CustomMessage {...props} messageType="InsuranceClaims" />
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "보험금 청구를 위한 신청서류는 어디서 확인 할 수 있나요?",
+                    handler: "DocumentsInsuranceClaim",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
+      {
+        widgetName: "InsuranceClaimsParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -561,7 +731,25 @@ const ChatBotConfig = (menuItem) => {
           </div>
         ),
       },
-
+      {
+        widgetName: "PaymentReceivedMailParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "제지급 우편 접수는 어떻게 하나요?",
+                    handler: "MailAcceptance",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
       {
         widgetName: "MaturityInsuranceMoneyWidget",
         widgetFunc: (props) => (
@@ -582,7 +770,25 @@ const ChatBotConfig = (menuItem) => {
           </div>
         ),
       },
-
+      {
+        widgetName: "MaturityInsuranceMoneyParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "만기보험금 신청은 어떻게 하나요?",
+                    handler: "ApplicationMaturityInsurance",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
       {
         widgetName: "CancellationRefundWidget",
         widgetFunc: (props) => (
@@ -603,7 +809,25 @@ const ChatBotConfig = (menuItem) => {
           </div>
         ),
       },
-
+      {
+        widgetName: "CancellationRefundParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "(해약)해지환급금은 어디서 확인할 수 있나요?",
+                    handler: "WhereCancellationRefund",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
       {
         widgetName: "CancellationWidget",
         widgetFunc: (props) => (
@@ -624,7 +848,25 @@ const ChatBotConfig = (menuItem) => {
           </div>
         ),
       },
-
+      {
+        widgetName: "CancellationParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "해약은 어떻게 하나요?",
+                    handler: "HowCancellation",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
       {
         widgetName: "IntermediateWithdrawalWidget",
         widgetFunc: (props) => (
@@ -632,6 +874,25 @@ const ChatBotConfig = (menuItem) => {
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
             <div class="h-[240px] w-full">
               <CustomMessage {...props} messageType="IntermediateWithdrawal" />
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "중도인출금 신청은 어떻게 하나요?",
+                    handler: "HowIntermediateWithdrawal",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
+      {
+        widgetName: "IntermediateWithdrawalParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -669,7 +930,29 @@ const ChatBotConfig = (menuItem) => {
           </div>
         ),
       },
-
+      {
+        widgetName: "WithdrawalSubscriptionParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "청약철회 가능기간 및 신청절차를 알려주세요?",
+                    handler: "PossibleWithdrawalSubscription",
+                  },
+                  {
+                    text: "청약철회가 불가능한 경우는 무엇인가요?",
+                    handler: "ImPossibleWithdrawalSubscription",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
       {
         widgetName: "PersonalInformationsWidget",
         widgetFunc: (props) => (
@@ -690,7 +973,25 @@ const ChatBotConfig = (menuItem) => {
           </div>
         ),
       },
-
+      {
+        widgetName: "PersonalInformationsParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "개인정보 변경은 어디서 할 수 있나요?",
+                    handler: "WherePersonalInformation",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
       {
         widgetName: "CertificateWidget",
         widgetFunc: (props) => (
@@ -698,6 +999,25 @@ const ChatBotConfig = (menuItem) => {
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
             <div class="h-[240px] w-full">
               <CustomMessage {...props} messageType="Certificate" />
+              <SideContractsOptions
+                {...props}
+                options={[
+                  {
+                    text: "각종 증명서 발급은 어디서 할 수 있나요?",
+                    handler: "WhereCertificate",
+                  },
+                ]}
+              />
+            </div>
+          </div>
+        ),
+      },
+      {
+        widgetName: "CertificateParWidget",
+        widgetFunc: (props) => (
+          <div class=" mt-[20px] h-auto w-full">
+            {/* <CustomMessage {...props} messageType="quickGuide" /> */}
+            <div class="h-[240px] w-full">
               <SideContractsOptions
                 {...props}
                 options={[
