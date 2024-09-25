@@ -14,10 +14,10 @@ const Main = () => {
 
   return (
     <div>
-      <div class="flex h-[600px] w-[830px]">
+      <div class="flex h-[790px] w-[830px]">
         <SideMenuBar onMenuItemClick={handleMenuItemClick} />
         <div class="flex w-[630px] flex-col bg-white">
-          <header class="ml-[228px] flex h-[64px] w-[600px] items-center ">
+          <header class="ml-[228px] flex h-[75px] w-[600px] items-center ">
             <div></div>
             <div className="flex cursor-default items-center justify-center text-base font-semibold">
               전문적인 상담사와 대화

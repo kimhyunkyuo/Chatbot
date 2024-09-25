@@ -1,6 +1,6 @@
 .chatbot-container {
   width: 630px;
-  height: 66vh;
+  height: 650PX;
   margin: 0 auto;
   border-radius: 8px;
   overflow: scroll;
@@ -60,6 +60,10 @@
   font-weight: 600;
   background-color: #98f0e4 !important;
   border-radius: 12px 0px 12px 12px;
+}
+.react-chatbot-kit-chat-inner-container{
+  height: 100%;
+  width: 100%;
 }
 .react-chatbot-kit-chat-bot-message-arrow,
 .react-chatbot-kit-chat-header,
