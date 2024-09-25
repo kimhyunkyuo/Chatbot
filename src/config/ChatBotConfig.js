@@ -303,9 +303,9 @@ const ChatBotConfig = (menuItem) => {
       {
         widgetName: "SideContractsWidget",
         widgetFunc: (props) => (
-          <div class=" mt-[20px] h-auto w-full">
+          <div class=" mt-[30px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="SideContracts" />
               <SideContractsOptions
                 {...props}
@@ -357,7 +357,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="SidePolicy" />
               <SideContractsOptions
                 {...props}
@@ -377,7 +377,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -396,7 +396,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="SideContractDetails" />
               <SideContractsOptions
                 {...props}
@@ -416,7 +416,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -435,7 +435,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage
                 {...props}
                 messageType="SideInsuranceBeneficiary"
@@ -458,7 +458,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -477,7 +477,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="SideBeneficiary" />
               <SideContractsOptions
                 {...props}
@@ -497,7 +497,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -516,7 +516,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="MarketingConsent" />
               <SideContractsOptions
                 {...props}
@@ -536,7 +536,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -555,7 +555,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="InsurancePremiumPayment" />
               <SideContractsOptions
                 {...props}
@@ -575,7 +575,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="InsurancePremiumPayment" />
               <SideContractsOptions
                 {...props}
@@ -595,7 +595,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -614,7 +614,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="AutomaticTransfer" />
               <SideContractsOptions
                 {...props}
@@ -638,7 +638,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="ReserveFund" />
               <SideContractsOptions
                 {...props}
@@ -658,7 +658,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -677,7 +677,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="InsuranceClaims" />
               <SideContractsOptions
                 {...props}
@@ -697,7 +697,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -716,7 +716,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="PaymentReceivedMail" />
               <SideContractsOptions
                 {...props}
@@ -736,7 +736,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -755,7 +755,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class="w-full">
               <CustomMessage {...props} messageType="MaturityInsuranceMoney" />
               <SideContractsOptions
                 {...props}
@@ -775,7 +775,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class="w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -794,7 +794,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="CancellationRefund" />
               <SideContractsOptions
                 {...props}
@@ -814,7 +814,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -833,7 +833,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="Cancellation" />
               <SideContractsOptions
                 {...props}
@@ -853,7 +853,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -872,7 +872,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="IntermediateWithdrawal" />
               <SideContractsOptions
                 {...props}
@@ -892,7 +892,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -911,7 +911,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="WithdrawalSubscription" />
               <SideContractsOptions
                 {...props}
@@ -935,7 +935,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -958,7 +958,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="PersonalInformations" />
               <SideContractsOptions
                 {...props}
@@ -978,7 +978,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -997,7 +997,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="Certificate" />
               <SideContractsOptions
                 {...props}
@@ -1017,7 +1017,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <SideContractsOptions
                 {...props}
                 options={[
@@ -1036,7 +1036,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1056,7 +1056,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1076,7 +1076,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class="w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1097,7 +1097,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class="w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1118,7 +1118,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1139,7 +1139,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1159,7 +1159,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1180,7 +1180,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1200,7 +1200,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1221,7 +1221,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
@@ -1242,7 +1242,7 @@ const ChatBotConfig = (menuItem) => {
         widgetFunc: (props) => (
           <div class=" mt-[20px] h-auto w-full">
             {/* <CustomMessage {...props} messageType="quickGuide" /> */}
-            <div class="h-[240px] w-full">
+            <div class=" w-full">
               <CustomMessage {...props} messageType="quickGuide" />
               <SideContractsOptions
                 {...props}
