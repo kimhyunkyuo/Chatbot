@@ -55,7 +55,7 @@ const MainTerminateOptions = (props) => {
           보험료 지급 및 해지 처리
         </div>
       </div>
-      <div className="mb-[42px] mt-[20px] flex items-center">
+      <div className="mt-[20px] flex items-center">
         <div class="flex">
           <img src={botAvatar} alt="Bot Avatar" className="chatbot-avatar" />
           <div>

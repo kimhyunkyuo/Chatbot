@@ -57,7 +57,7 @@ const CustomMessage = (props) => {
     case "SideContractDetails":
       return (
         <div>
-          <div class="  w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">계약사항</div>
           </div>
         </div>
@@ -65,7 +65,7 @@ const CustomMessage = (props) => {
     case "SideInsuranceBeneficiary":
       return (
         <div>
-          <div class="  w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">보험수익자</div>
           </div>
         </div>
@@ -73,7 +73,7 @@ const CustomMessage = (props) => {
     case "SideBeneficiary":
       return (
         <div>
-          <div class=" w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">수익자</div>
           </div>
         </div>
@@ -81,7 +81,7 @@ const CustomMessage = (props) => {
     case "MarketingConsent":
       return (
         <div>
-          <div class=" w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">마케팅 동의</div>
           </div>
         </div>
@@ -89,7 +89,7 @@ const CustomMessage = (props) => {
     case "InsurancePremiumPayment":
       return (
         <div>
-          <div class="  w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">보험료 납입</div>
           </div>
         </div>
@@ -97,7 +97,7 @@ const CustomMessage = (props) => {
     case "AutomaticTransfer":
       return (
         <div>
-          <div class="  w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">자동이체</div>
           </div>
         </div>
@@ -105,7 +105,7 @@ const CustomMessage = (props) => {
     case "ReserveFund":
       return (
         <div>
-          <div class="  w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">적립금</div>
           </div>
         </div>
@@ -113,7 +113,7 @@ const CustomMessage = (props) => {
     case "InsuranceClaims":
       return (
         <div>
-          <div class="  w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">보험금 청구</div>
           </div>
         </div>
@@ -121,7 +121,7 @@ const CustomMessage = (props) => {
     case "PaymentReceivedMail":
       return (
         <div>
-          <div class="]  w-full">
+          <div class="  w-full">
             <div class="react-chatbot-kit-user-chat-message">
               지급금 우편접수
             </div>
@@ -155,7 +155,7 @@ const CustomMessage = (props) => {
     case "IntermediateWithdrawal":
       return (
         <div>
-          <div class="  w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">중도인출</div>
           </div>
         </div>
@@ -163,7 +163,7 @@ const CustomMessage = (props) => {
     case "WithdrawalSubscription":
       return (
         <div>
-          <div class="  w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">청약철회</div>
           </div>
         </div>
@@ -171,7 +171,7 @@ const CustomMessage = (props) => {
     case "PersonalInformations":
       return (
         <div>
-          <div class="  w-full">
+          <div class=" w-full">
             <div class="react-chatbot-kit-user-chat-message">개인정보</div>
           </div>
         </div>
@@ -188,7 +188,7 @@ const CustomMessage = (props) => {
     case "ReApplicationInsurancePolicy":
       return (
         <div>
-          <div class=" w-full">
+          <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">
               보험증권을 다시 받고 싶은데 어떻게 신청하면 되나요?
             </div>

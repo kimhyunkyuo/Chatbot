@@ -61,6 +61,7 @@
   font-weight: 600;
   background-color: #98f0e4 !important;
   border-radius: 12px 0px 12px 12px;
+  margin-bottom: 30px;
 }
 .react-chatbot-kit-chat-inner-container{
   height: 100%;
