@@ -93,8 +93,8 @@
   width: 528px;
 }
 .react-chatbot-kit-chat-input:focus {
-  outline: none;
-  border: 2px solid var(--Fill-Primary-Normal);
+  outline-color: #00C6A9;
+  border: 2px solid #98f0e4;
 }
 .react-chatbot-kit-chat-input::placeholder {
   color: var(--Text-Assistive);
