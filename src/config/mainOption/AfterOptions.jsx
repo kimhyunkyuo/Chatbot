@@ -15,7 +15,7 @@ const AfterOptions = (props) => {
   ));
 
   return (
-    <div class="mb-4 w-[600px]">
+    <div class=" w-[590px]">
       <div class="mb-1 ml-[56px] h-full w-full pr-[12px] text-left text-xs font-normal leading-[18px] text-Text-Alternative">
         아래의 항목을 선택하면 빠르게 알려드릴게요!
       </div>
