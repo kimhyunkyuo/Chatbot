@@ -12,7 +12,9 @@ const SideContractsOptions = (props) => {
       key={index}
       onClick={() => props.actionProvider[option.handler]()}
     >
-      <div>{option.text}</div>
+       <div class="overflow-hidden whitespace-nowrap text-ellipsis ">
+        {option.text}
+        </div>
       <div class="flex h-[18px] w-[18px] items-center">
         <img src={rightArrow} />
       </div>
