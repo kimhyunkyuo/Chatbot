@@ -55,7 +55,7 @@ const MainPaymentOptions = (props) => {
           보험료 및 납입 관리
         </div>
       </div>
-      <div className="mb-[42px] mt-[20px] flex items-center">
+      <div className=" mt-[20px] flex items-center">
         <div class="flex">
           <img src={botAvatar} alt="Bot Avatar" className="chatbot-avatar" />
           <div>

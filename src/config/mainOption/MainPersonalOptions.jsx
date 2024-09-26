@@ -55,7 +55,7 @@ const MainPersonalOptions = (props) => {
           개인정보 및 증명 서류
         </div>
       </div>
-      <div className="mb-[42px] mt-[20px] flex items-center">
+      <div className=" mt-[20px] flex items-center">
         <div class="flex">
           <img src={botAvatar} alt="Bot Avatar" className="chatbot-avatar" />
           <div>

@@ -40,7 +40,7 @@ const MainContractsOptions = (props) => {
           보험 계약 및 가입 관련
         </div>
       </div>
-      <div className="mb-[42px] mt-[20px] flex items-center">
+      <div className="mt-[20px] flex items-center">
         <div class="flex">
           <img src={botAvatar} alt="Bot Avatar" className="chatbot-avatar" />
           <div>
