@@ -171,7 +171,7 @@ const CustomMessage = (props) => {
     case "PersonalInformations":
       return (
         <div>
-          <div class=" w-full">
+          <div class="  w-full">
             <div class="react-chatbot-kit-user-chat-message">개인정보</div>
           </div>
         </div>

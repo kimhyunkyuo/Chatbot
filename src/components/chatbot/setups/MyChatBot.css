@@ -61,8 +61,12 @@
   font-weight: 600;
   background-color: #98f0e4 !important;
   border-radius: 12px 0px 12px 12px;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
 }
+.react-chatbot-kit-user-chat-message-container{
+  margin-top: 30px; height: 20px;
+}
+
 .react-chatbot-kit-chat-inner-container{
   height: 100%;
   width: 100%;
