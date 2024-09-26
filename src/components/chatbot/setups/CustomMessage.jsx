@@ -40,19 +40,17 @@ const CustomMessage = (props) => {
 
     case "SideContracts":
       return (
-        <div class="react-chatbot-kit-user-chat-message">
-          <div >
-            <div >보험가입</div>
+        <div  class="w-full">
+          <div class="react-chatbot-kit-user-chat-message"  >
+          <div >보험가입</div>
           </div>
         </div>
       );
     case "SidePolicy":
       return (
-        <div>
           <div class="w-full">
             <div class="react-chatbot-kit-user-chat-message">보험증권</div>
           </div>
-        </div>
       );
     case "SideContractDetails":
       return (
